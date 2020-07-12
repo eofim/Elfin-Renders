@@ -1,0 +1,217 @@
+body {
+   font-size: 68%;
+   font-family: Verdana,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ', Meiryo,sans-serif;
+   color: #000;
+   background-color: #FFF;/* 背景色 */
+}
+/*--------------------------------------------------------
+リンク
+--------------------------------------------------------*/
+
+A {
+   color: #b08100;
+   text-decoration: none;
+}
+
+A:HOVER {
+   text-decoration: underline;
+}
+
+A img {
+   border-style: none ;
+}
+/*--------------------------------------------------------
+index
+--------------------------------------------------------*/
+
+#index{
+   margin: 10px;
+   background-color: #FFF;/* 背景色 */
+}
+/* ----indexのライン色---- */
+
+.line01{
+   background-color: #3ca9c9;
+   min-height: 10px;
+   width: 400px;
+}
+
+.line02{
+   background-color: #fcb900;
+   min-height: 10px;
+   width: 400px;
+}
+/*--------------------------------------------------------
+メニューフレーム
+--------------------------------------------------------*/
+
+#menupage{
+   background-color: #FFF;/* 背景色 */
+   border-right: 1px solid #000;
+   text-align: center;
+}
+
+.menu{
+   color: #000;
+   margin: 0;
+   padding: 0;
+   width: 100%;
+}
+
+.menu li{
+   list-style: none;
+   width: 100%;/* IE用 */
+   border-bottom: 1px solid  #000;/* 下の線の色 */
+}
+
+.menu A{
+   display: block;
+   color: #000;/* 文字色 */
+   padding: 5px 0;
+   text-decoration: none;
+   zoom: 1;/* IE用 */
+}
+
+.menu A:hover{
+   background-color: #fcb900;/* メニューにマウスを乗せた時 */
+}
+
+.menu .bl{
+   color: #FFF;
+   background-color: #3ca9c9;
+   font-weight: bold;
+}
+
+#fl{
+   font-size: 0.8em;
+   background-color: #3ca9c9;
+   width: 100%;
+   text-align: center;
+   margin-top: 30px;
+   border-bottom: 1px solid  #000;
+   border-top: 1px solid  #000;
+}
+
+#fl A{
+   color: #FFF;
+}
+/*--------------------------------------------------------
+リンクページ
+--------------------------------------------------------*/
+
+.link01 img {
+   margin: 3px ;
+}
+
+.link01 A img {
+   margin: 3px ;
+}
+/*--------------------------------------------------------
+見出し、枠、線
+--------------------------------------------------------*/
+
+.h01 {
+   font-size: 1.3em;
+   font-weight: bold;
+   margin: 1em 0;
+}
+
+.h02 {
+   font-weight: bold;
+   margin: 1em 0;
+   border-bottom: dashed 1px #000;
+   width: 400px;
+}
+
+h1 {
+   color: #b08100;
+   font-size: 1.6em;
+   font-weight: bold;
+   padding: 10px 0;
+   margin: 0;
+}
+
+h2 {
+   font-size: 1.2em;
+   padding: 10px 0;
+   margin: 0;
+}
+
+h3 {
+   font-size: 1em;
+   font-weight: bold;
+   padding: 10px 0;
+   margin: 0;
+}
+
+em {
+   font-style: normal;
+   font-weight: bold ;
+}
+
+input, textarea {
+   font-size: 1em;
+   color: #000;
+   font-family: Verdana,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ', Meiryo,serif;
+   background-color: #fcb900;
+   width: 200px;
+   margin: 3px 0;
+   border: 1px solid #000;
+}
+
+textarea {
+   height: 50px;
+}
+
+.pos {
+   background-color: #fcb900;
+   margin: 5px 0;
+   padding: 3px;
+   border: 2px solid #000;
+   width: 400px;
+}
+
+.ln01 {
+   border-left: 5px solid #3ca9c9;
+   margin: 5px 0;
+   padding: 3px;
+}
+
+.ln02 {
+   border-left: 5px solid #fcb900;
+   margin: 5px 0;
+   padding: 3px;
+}
+
+.co01 {
+   color: #f00 ;
+}
+
+.co02 {
+   color: #fcb900 ;
+}
+
+.txt {
+   margin: 1em;
+   padding: 0 0 0 1em;
+   border-left: 1px solid;
+}
+
+.navi {
+   font-size: 0.9em;
+   margin: 10px 0;
+   padding: 3px;
+   border-bottom: 1px solid #000;
+   width: 400px;
+}
+
+.title {
+   color: #80e1ff;
+   font-size: 1.7em;
+   font-weight: bold;
+   margin: 2em 0;
+}
+
+.middle {
+   vertical-align: middle ;
+}
